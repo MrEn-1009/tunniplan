@@ -1,0 +1,261 @@
+from tkinter import *
+root = Tk()
+
+def est(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Eesti keel II grupp.\nÕpetaja nimi: Olesja Ojamäe.\nKabinet: B 234", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def esttug(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Tugiõpe Eesti keel II grupp.\nÕpetaja nimi: Olesja Ojamäe.\nKabinet: B 002", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def logo(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Logistikateenused ja varude juhtimine.\nÕpetaja nimi: Inessa Klimanskaja.\nKabinet: B 234", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def mato(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Matemaatika.\nÕpetaja nimi: Nadežda Voronova.\nKabinet: B 133", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def kjko(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Keel ja kirjandus.\nÕpetaja nimi: Ljudmilla Mihhailova.\nKabinet: B 221", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def matotug(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Matemaatika(Tugiõpe).\nÕpetaja nimi: Nadežda Voronova.\nKabinet: B 133", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def kemi(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry('300x350')
+    estw=Label(okno, text="Tunni nimetus: Keemia(Tugiõpe).\nÕpetaja nimi: Svetlana Pesetskaja.\nKabinet: B 144", width=40,height=20)
+    estw.grid(row=0,column=0)
+    okno.mainloop()
+def prog(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Programmeerimise alused.\nÕpetaja nimi: Marina Oleinik.\nKabinet: E 07", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop()
+def fus(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Füüsika.\nÕpetaja nimi: Nadežda Voronova.\nKabinet: B 133", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop()
+def est1tug(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Eesti keel(Tugiõpe).\nÕpetaja nimi: Alina Laaneväli.\nKabinet: B 236", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop() 
+def kun(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Kuntsiained.\nÕpetaja nimi: Aleksandra Norkevitš.\nKabinet: B 232", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop() 
+def keh(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Kehaline kasvatus.\nÕpetaja nimi: Maksim Maksõmiv.\nKabinet: Võimla A", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop() 
+def ingl1(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Inglise keel I grupp.\nÕpetaja nimi: Olga Poskotinova.\nKabinet: B 138", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop()
+def ingl2(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Inglise keel II grupp.\nÕpetaja nimi: Olga.\nKabinet: B 227", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop() 
+def rt(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Rühmajunhatajantund.\nÕpetaja nimi: Alina Laaneväli.\nKabinet: B 236", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop()
+def aren(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Rahendustrakvara.\nÕpetaja nimi: Irina Merkulova.\nKabinet: E 10", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop()
+def estpol(event):
+    okno=Toplevel()
+    okno.grab_set()
+    okno.geometry("300x350")
+    estw=Label(okno, text="Tunni nimetus: Eesti keel.\nÕpetaja nimi: Alina Laaneväli.\nKabinet: B 236", width=40,height=20)
+    estw.grid(row=0, column=0)
+    okno.mainloop()
+
+Label(borderwidth=1, relief="solid",text=" ", width=20,height=6).grid(row=0, column=0)
+Label(borderwidth=1, relief="solid",text=" 0 ", width=10,height=6).grid(row=0, column=1)
+Label(borderwidth=1, relief="solid",text=" 1 ", width=10,height=6).grid(row=0, column=2)
+Label(borderwidth=1, relief="solid",text=" 2 ", width=10,height=6).grid(row=0, column=3)
+Label(borderwidth=1, relief="solid",text=" 3 ", width=10,height=6).grid(row=0, column=4)
+Label(borderwidth=1, relief="solid",text=" 4 ", width=10,height=6).grid(row=0, column=5)
+Label(borderwidth=1, relief="solid",text=" 5 ", width=10,height=6).grid(row=0, column=6)
+Label(borderwidth=1, relief="solid",text=" 6 ", width=10,height=6).grid(row=0, column=7)
+Label(borderwidth=1, relief="solid",text=" 7 ", width=10,height=6).grid(row=0, column=8)
+Label(borderwidth=1, relief="solid",text=" 8 ", width=10,height=6).grid(row=0, column=9)
+Label(borderwidth=1, relief="solid",text=" 9 ", width=10,height=6).grid(row=0, column=10)
+Label(borderwidth=1, relief="solid",text=" 10 ", width=10,height=6).grid(row=0, column=11)
+
+Label(borderwidth=0, relief="solid", text="7.40-8.25", width=10,height=2).grid(row=0, column=1,sticky=S)
+Label(borderwidth=0, relief="solid", text="8.30-9.15", width=10,height=2).grid(row=0, column=2,sticky=S)
+Label(borderwidth=0, relief="solid", text="9.20-10.05", width=10,height=2).grid(row=0, column=3,sticky=S)
+Label(borderwidth=0, relief="solid", text="10.10-10.55", width=10,height=2).grid(row=0, column=4,sticky=S)
+Label(borderwidth=0, relief="solid", text="11.00-11.45", width=10,height=2).grid(row=0, column=5,sticky=S)
+Label(borderwidth=0, relief="solid", text="11.50-12.35", width=10,height=2).grid(row=0, column=6,sticky=S)
+Label(borderwidth=0, relief="solid", text="12.40-13.25", width=10,height=2).grid(row=0, column=7,sticky=S)
+Label(borderwidth=0, relief="solid", text="13.30-14.15", width=10,height=2).grid(row=0, column=8,sticky=S)
+Label(borderwidth=0, relief="solid", text="14.20-15.05", width=10,height=2).grid(row=0, column=9,sticky=S)
+Label(borderwidth=0, relief="solid", text="15.10-15.55", width=10,height=2).grid(row=0, column=10,sticky=S)
+Label(borderwidth=0, relief="solid", text="16.00-16.45", width=10,height=2).grid(row=0, column=11,sticky=S)
+
+Label(borderwidth=1, relief="solid",text=" Esmaspäev ", width=20,height=6).grid(row=1, column=0)
+Label(borderwidth=1, relief="solid",text=" Teisipäev ", width=20,height=6).grid(row=2, column=0)
+Label(borderwidth=1, relief="solid",text=" Kolmapäev ", width=20,height=6).grid(row=3, column=0)
+Label(borderwidth=1, relief="solid",text=" Neljapäev ", width=20,height=6).grid(row=4, column=0)
+Label(borderwidth=1, relief="solid",text=" Reede ", width=20,height=6).grid(row=5, column=0)
+#1
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=1, column=1)
+tug1=Label(borderwidth=1, relief="solid",text=" Tugiõpe ",bg='#cab4c7', width=10,height=3)
+tug1.grid(row=1, column=2,sticky=S)
+log1=Label(borderwidth=1, relief="solid",text=" Logistikateenused ",bg='#80e092', width=20,height=6)
+log1.grid(row=1, column=3, columnspan=2)
+mat1=Label(borderwidth=1, relief="solid",text=" Matemaatika ",bg='#fcb9d0', width=20,height=6)
+mat1.grid(row=1, column=5, columnspan=2)
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=1, column=7)
+kjk1=Label(borderwidth=1, relief="solid",text=" Keel ja kirjandus",bg='#94ed80', width=20,height=6)
+kjk1.grid(row=1, column=8, columnspan=2)
+tug2=Label(borderwidth=1, relief="solid",text=" Tugiõpe ", width=10,height=6,bg='#fcb9d0')
+tug2.grid(row=1, column=10)
+#2
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=2, column=1)
+tug3=Label(borderwidth=1, relief="solid",text=" Tugiõpe ",bg='#e080e0' , width=10,height=6)
+tug3.grid(row=2, column=2)
+prog1=Label(borderwidth=1, relief="solid",text=" Programmeerimise alused ",bg='#abe0ff', width=30,height=6)
+prog1.grid(row=2, column=3, columnspan=3)
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=2, column=6)
+fus1=Label(borderwidth=1, relief="solid",text=" Füüsika ",bg='#fcb9d0', width=20,height=6)
+fus1.grid(row=2, column=7, columnspan=2)
+#3
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=3, column=1)
+tug4=Label(borderwidth=1, relief="solid",text=" Tugiõpe ",bg='#ff80ff', width=10,height=3)
+tug4.grid(row=3, column=2,sticky=N)
+kun1=Label(borderwidth=1, relief="solid",text=" Kunstained ",bg='#e080ce', width=20,height=6)
+kun1.grid(row=3, column=3, columnspan=2)
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=3, column=5)
+kk1=Label(borderwidth=1, relief="solid",text=" Kehaline kasvatus ",bg='#e080ce', width=20,height=6)
+kk1.grid(row=3, column=6, columnspan=2)
+#4
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=4, column=1)
+log2=Label(borderwidth=1, relief="solid",text=" Logistikateenused ",bg='#80e092',width=20,height=6)
+log2.grid(row=4, column=2, columnspan=2)
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=4, column=4)
+prog2=Label(borderwidth=1, relief="solid",text=" Programmeerimise alused ",bg='#abe0ff', width=20,height=6)
+prog2.grid(row=4, column=5, columnspan=2)
+ing1=Label(borderwidth=1, relief="solid",text=" Inglise keel ", width=20,height=3)
+ing1.grid(row=4, column=7, columnspan=2,sticky=N)
+aren1=Label(borderwidth=1, relief="solid",text=" Arenduskesskonna \nloomine ",bg='#ff80a2', width=20,height=3)
+aren1.grid(row=4, column=7, columnspan=2,sticky=S)
+aren2=Label(borderwidth=1, relief="solid",text=" Arenduskesskonna \nloomine ",bg='#ff80a2', width=20,height=3)
+aren2.grid(row=4, column=9, columnspan=2,sticky=N)
+est1=Label(borderwidth=1, relief="solid",text=" Eesti keel ",bg='#cab4c7', width=20,height=3)
+est1.grid(row=4, column=9, columnspan=2,sticky=S)
+rt1=Label(borderwidth=1, relief="solid",text=" Rühmaju\nhataja\ntund ",bg='#ff80ff', width=10,height=6)
+rt1.grid(row=4, column=11)
+#5
+Label(borderwidth=1, relief="solid",text=" ", width=10,height=6).grid(row=5, column=1)
+est2=Label(borderwidth=1, relief="solid",text=" Eesti keel ",bg='#ff80ff', width=20,height=3)
+est2.grid(row=5, column=2, columnspan=2,sticky=N)
+aren3=Label(borderwidth=1, relief="solid",text=" Arenduskesskonna \nloomine ",bg='#ff80a2', width=20,height=3)
+aren3.grid(row=5, column=2, columnspan=2,sticky=S)
+prog3=Label(borderwidth=1, relief="solid",text=" Programmeerimise alused ",bg='#abe0ff', width=50,height=6)
+prog3.grid(row=5, column=4, columnspan=5)
+ing2=Label(borderwidth=1, relief="solid",text=" Inglise keel ",bg='#80ff80', width=20,height=3)
+ing2.grid(row=5, column=9, columnspan=2,sticky=S)
+aren4=Label(borderwidth=1, relief="solid",text=" Arenduskesskonna \nloomine ",bg='#ff80a2', width=20,height=3)
+aren4.grid(row=5, column=9, columnspan=2,sticky=N)
+
+est1.bind("<Button-1>",
+          lambda e="Description": est(e))
+tug1.bind('<Button-1>',
+          lambda e="Description": esttug(e))
+log1.bind('<Button-1>',
+          lambda e="Description": logo(e))
+log2.bind('<Button-1>',
+          lambda e="Description": logo(e))
+mat1.bind('<Button-1>',
+          lambda e="Description": mato(e))
+kjk1.bind('<Button-1>',
+          lambda e="Description": kjko(e))
+tug2.bind('<Button-1>',
+          lambda e="Description": matotug(e))
+tug3.bind('<Button-1>',
+          lambda e="Description": kemi(e))
+prog1.bind('<Button-1>',
+          lambda e="Description": prog(e))
+prog2.bind('<Button-1>',
+          lambda e="Description": prog(e))
+prog3.bind('<Button-1>',
+          lambda e="Description": prog(e))
+fus1.bind('<Button-1>',
+          lambda e="Description": fus(e))
+tug4.bind('<Button-1>',
+          lambda e="Description": est1tug(e))
+kun1.bind('<Button-1>',
+          lambda e="Description": kun(e))
+kk1.bind('<Button-1>',
+          lambda e="Description": keh(e))
+ing1.bind('<Button-1>',
+          lambda e="Description": ingl1(e))
+ing2.bind('<Button-1>',
+          lambda e="Description": ingl2(e))
+rt1.bind('<Button-1>',
+          lambda e="Description": rt(e))
+aren1.bind('<Button-1>',
+          lambda e="Description": aren(e))
+aren2.bind('<Button-1>',
+          lambda e="Description": aren(e))
+aren3.bind('<Button-1>',
+          lambda e="Description": aren(e))
+aren4.bind('<Button-1>',
+          lambda e="Description": aren(e))
+est2.bind('<Button-1>',
+          lambda e="Description": estpol(e))
+root.mainloop()

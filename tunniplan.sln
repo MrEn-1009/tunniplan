@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tunniplan", "tunniplan\tunniplan.pyproj", "{EDE9CBBB-F3F3-4253-A885-8324362D262A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE9CBBB-F3F3-4253-A885-8324362D262A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE9CBBB-F3F3-4253-A885-8324362D262A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCBF0A92-7C0E-42AF-8224-21C27FD2C5DB}
+	EndGlobalSection
+EndGlobal
